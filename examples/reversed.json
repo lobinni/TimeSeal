@@ -1,0 +1,14 @@
+{
+  "title": "Installation schedule written backwards",
+  "events": [
+    "Start",
+    "Install",
+    "Open"
+  ],
+  "horizon": 90,
+  "clauses": [
+    "Start happens no earlier than 10 minutes and no later than 20 minutes before installation.",
+    "Installation finishes at least 5 minutes and at most 15 minutes before opening.",
+    "Opening is no later than 35 minutes after the start."
+  ]
+}

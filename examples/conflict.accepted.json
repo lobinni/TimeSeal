@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "status": "KNOWN",
+      "a": 0,
+      "b": 1,
+      "lo": 10,
+      "hi": 20,
+      "quote": "Install must occur between 10 and 20 minutes after Start."
+    },
+    {
+      "status": "KNOWN",
+      "a": 1,
+      "b": 2,
+      "lo": 5,
+      "hi": 15,
+      "quote": "Open must occur between 5 and 15 minutes after Install."
+    },
+    {
+      "status": "KNOWN",
+      "a": 0,
+      "b": 2,
+      "lo": null,
+      "hi": 4,
+      "quote": "Opening must happen no later than 4 minutes after the start."
+    }
+  ]
+}

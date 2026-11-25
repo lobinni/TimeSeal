@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "status": "KNOWN",
+      "a": 0,
+      "b": 1,
+      "lo": 10,
+      "hi": 20,
+      "quote": "Triage must start within 10 to 20 minutes after detection."
+    },
+    {
+      "status": "UNKNOWN",
+      "a": null,
+      "b": null,
+      "lo": null,
+      "hi": null,
+      "quote": ""
+    },
+    {
+      "status": "KNOWN",
+      "a": 1,
+      "b": 2,
+      "lo": null,
+      "hi": 90,
+      "quote": "Mitigation must be complete no later than 90 minutes after triage begins."
+    }
+  ]
+}

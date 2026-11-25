@@ -1,0 +1,33 @@
+{
+  "network": "Stable Studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "sdk": "genlayer-js@1.1.8",
+  "contract": "0x4EE33A9172f54869C0feA7314074dD7eB710A778",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x4EE33A9172f54869C0feA7314074dD7eB710A778",
+  "recorded_at": "2026-11-25T03:59:31Z",
+  "constructor_args": [],
+  "payable": false,
+  "source": {
+    "file": "contracts/timeseal.py",
+    "sha256": "525246061490d4158301c7d71ec8d9327d8c615677989b1e82a8cb1e3668a608",
+    "bytes": 15824,
+    "lines": 341,
+    "line_endings": "CRLF",
+    "byte_identical_to_local": true
+  },
+  "protocol_readback": {
+    "version": "timeseal-1",
+    "chain_id": 61999,
+    "events": 6,
+    "clauses": 10,
+    "records_per_owner": 24,
+    "attempts": 3,
+    "methods": ["seal", "analyze", "reanalyze", "commit_schedule"],
+    "states": ["SEALED", "REVIEW", "CONFLICT", "FEASIBLE", "COMMITTED"]
+  },
+  "abi": {
+    "views": ["protocol", "get_record", "list_records", "tight_bound"],
+    "writes": ["seal", "analyze", "reanalyze", "commit_schedule"]
+  }
+}

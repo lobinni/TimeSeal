@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "status": "KNOWN",
+      "a": 1,
+      "b": 0,
+      "lo": -20,
+      "hi": -10,
+      "quote": "Start happens no earlier than 10 minutes and no later than 20 minutes before installation."
+    },
+    {
+      "status": "KNOWN",
+      "a": 1,
+      "b": 2,
+      "lo": 5,
+      "hi": 15,
+      "quote": "Installation finishes at least 5 minutes and at most 15 minutes before opening."
+    },
+    {
+      "status": "KNOWN",
+      "a": 0,
+      "b": 2,
+      "lo": null,
+      "hi": 35,
+      "quote": "Opening is no later than 35 minutes after the start."
+    }
+  ]
+}

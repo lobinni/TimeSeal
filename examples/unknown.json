@@ -1,0 +1,14 @@
+{
+  "title": "Incident timeline with an ambiguous clause",
+  "events": [
+    "Detect",
+    "Triage",
+    "Mitigate"
+  ],
+  "horizon": 240,
+  "clauses": [
+    "Triage must start within 10 to 20 minutes after detection.",
+    "Mitigation must begin roughly a quarter of an hour after triage begins.",
+    "Mitigation must be complete no later than 90 minutes after triage begins."
+  ]
+}
